@@ -1,0 +1,121 @@
+@import url("https://fonts.googleeapis.com/css?familiy=Poppins:700,600");
+.home-page {
+  align-items: flex-start;
+  background-color: white;
+  display: flex;
+  gap: 125px;
+  height: 760px;
+  margin-left: 93px;
+  margin-top: 100px;
+  min-height: 364px;
+  width: 1024px;
+}
+
+.title-h1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 93px;
+  margin-top: 142px;
+  min-height: 364px;
+  width: 502px;
+}
+
+#image-dojou {
+  height: 1002px;
+  width: 580px;
+  position: absolute;
+  top: 84px;
+  left: 720px;
+}
+
+.project-btton {
+  background-color: #fe481c;
+  border-radius: 8px;
+  display: flex;
+  height: 62px;
+  margin-left: 40px;
+  margin-top: 20px;
+  min-width: 160px;
+  padding: 18px 46px;
+}
+
+.project-text {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  height: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.text-position {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name-title {
+  height: 74px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 10px;
+  width: 502px;
+}
+
+.devinisi {
+  color: #0e0c0b78;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  height: 120px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 12px;
+  width: 501px;
+}
+
+.flex-row {
+  align-items: flex-end;
+  display: flex;
+  gap: 30px;
+  margin-top: -1px;
+  min-width: 502px;
+}
+
+.hi-iam {
+  height: 74px;
+  letter-spacing: 0;
+  line-height: normal;
+  width: 314px;
+}
+
+.kolom-uiux {
+  align-items: flex-start;
+  background-color: #5562ff;
+  border-radius: 30px;
+  display: flex;
+  height: 60;
+  margin-bottom: 2px;
+  min-width: 158;
+  padding: 5px 33px;
+}
+
+.text-uiux {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  height: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.poppins-bold-cod-gray-74px {
+  color: rgba(14, 12, 11, 1);
+  font-family: "Poppins", sans-serif;
+  font-size: 74px;
+  font-weight: 700;
+  font-style: normal;
+}

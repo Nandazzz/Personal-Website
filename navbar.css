@@ -83,3 +83,7 @@ nav ul li a {
   min-width: 16px;
   padding: 1px 0;
 }
+
+.padding-default {
+  padding: 0 1rem;
+}
