@@ -140,6 +140,22 @@
   font-style: normal;
 }
 
+.poppins-bold-cod-gray-20px {
+  color: rgba(14, 12, 11, 1);
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-bold-white-16px {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+}
+
 .title-2 {
   align-items: flex-start;
   align-self: center;
@@ -151,6 +167,7 @@
   margin-top: 61px;
   min-height: 180px;
   width: 394px;
+  top: 480px;
 }
 
 .overlap-group {
@@ -222,4 +239,50 @@
   line-height: normal;
   position: absolute;
   top: 46px;
+}
+
+.kolom-statistic {
+  align-items: center;
+  position: absolute;
+  background-color: #262626;
+  display: flex;
+  gap: 77px;
+  height: 256px;
+  justify-content: flex-end;
+  margin-top: 58px;
+  min-width: 595px;
+  padding: 0 19px;
+  left: 0px;
+  top: 790px;
+}
+
+.button-them2 {
+  position: absolute;
+  padding: 8px 2rem;
+  border-radius: 8px;
+  border-color: transparent;
+  background-color: #fe481c;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  background-image: none;
+  left: 40px;
+  top: 150px;
+}
+
+.judul-statistic {
+  position: absolute;
+  color: white;
+  left: 40px;
+  top: 74px;
+}
+
+.judul-statistic2 {
+  color: white;
+  position: absolute;
+  left: 40px;
+  top: 102px;
 }
