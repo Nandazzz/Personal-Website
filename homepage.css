@@ -123,3 +123,103 @@
   font-weight: 700;
   font-style: normal;
 }
+
+.poppins-bold-cod-gray-32px {
+  color: rgba(14, 12, 11, 1);
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-bold-cod-gray-16px {
+  color: rgba(14, 12, 11, 1);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.title-2 {
+  align-items: flex-start;
+  align-self: center;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-right: 77px;
+  margin-top: 61px;
+  min-height: 180px;
+  width: 394px;
+}
+
+.overlap-group {
+  height: 94px;
+  margin-top: -1px;
+  position: relative;
+  width: 110px;
+}
+
+.number {
+  height: 48px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.title-study {
+  height: 48px;
+  left: 1px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 46px;
+}
+
+.flex-row-1 {
+  align-items: center;
+  display: flex;
+  gap: 103px;
+  min-width: 394px;
+}
+
+.flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2px;
+  min-height: 60px;
+  width: 0;
+}
+
+.mail {
+  height: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.contact {
+  color: rgba(14, 12, 11, 1);
+  font-size: 32px;
+  font-weight: 700;
+  height: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.overlap-group1 {
+  height: 70px;
+  position: relative;
+  width: 102px;
+}
+
+.title-project {
+  height: 24px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 46px;
+}
