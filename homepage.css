@@ -286,3 +286,57 @@
   left: 40px;
   top: 102px;
 }
+
+.website {
+  position: absolute;
+  left: 306px;
+  top: 63px;
+}
+
+.website-data {
+  position: absolute;
+  right: 55px;
+  top: 63px;
+}
+
+.line1 {
+  position: absolute;
+  top: 95px;
+  left: 306px;
+}
+
+.mobile-app {
+  position: absolute;
+  left: 306px;
+  top: 109px;
+}
+
+.mobile-app-data {
+  position: absolute;
+  right: 55px;
+  top: 109px;
+}
+
+.line2 {
+  position: absolute;
+  top: 145px;
+  left: 306px;
+}
+
+.explore-2d {
+  position: absolute;
+  left: 306px;
+  top: 155px;
+}
+
+.explore-2d-data {
+  position: absolute;
+  right: 55px;
+  top: 157px;
+}
+
+.line3 {
+  position: absolute;
+  top: 192px;
+  left: 306px;
+}
