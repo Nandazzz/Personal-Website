@@ -33,6 +33,12 @@
   padding: 8px 2rem;
   border-radius: 8px;
   border-color: transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+.project-btton:hover {
+  background-color: #cd1700;
+  box-shadow: 0px 8px 20px whitesmoke;
 }
 
 .button-them {
@@ -44,6 +50,11 @@
   font-size: 16px;
   font-weight: 700;
   background-image: none;
+}
+
+.button-them2:hover {
+  background-color: #cd1700;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .text-position {
