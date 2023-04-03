@@ -1,127 +1,15 @@
-@import url("https://fonts.googleeapis.com/css?familiy=Poppins:700,600");
-.home-page {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.padding-default {
   align-items: flex-start;
   background-color: white;
   display: flex;
   gap: 125px;
-  height: 918px;
+  height: 440px;
   margin-left: 93px;
-  margin-top: 100px;
+  margin-top: 20px;
   min-height: 364px;
   width: 1024px;
-}
-
-.title-h1 {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  margin-left: 93px;
-  margin-top: 142px;
-  min-height: 364px;
-  width: 502px;
-}
-
-#image-dojou {
-  position: absolute;
-  width: 660px;
-  height: 1020px;
-  left: 632px;
-  top: 84px;
-}
-
-.project-btton {
-  padding: 8px 2rem;
-  border-radius: 8px;
-  border-color: transparent;
-}
-
-.button-them {
-  position: relative;
-  padding: 8px 2rem;
-  background-color: #fe481c;
-  color: white;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  background-image: none;
-}
-
-.text-position {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.name-title {
-  height: 60px;
-  letter-spacing: 0;
-  line-height: normal;
-  margin-top: 10px;
-  width: 340px;
-}
-
-.devinisi {
-  color: #0e0c0b78;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  height: 100px;
-  letter-spacing: 2.4;
-  line-height: 24px;
-  margin-top: 0px;
-  width: 500px;
-}
-
-.flex-row {
-  align-items: center;
-  display: flex;
-  gap: 30px;
-  margin-top: -1px;
-  min-width: 340px;
-}
-
-.hi-iam {
-  height: 64px;
-  letter-spacing: 0;
-  line-height: normal;
-  width: 160px;
-}
-
-.kolom-uiux {
-  align-items: center;
-  background-color: #5562ff;
-  border-radius: 30px;
-  display: flex;
-  height: 60;
-  margin-bottom: 2px;
-  min-width: 158;
-  padding: 5px 33px;
-}
-
-.text-uiux {
-  color: white;
-  font-family: "Poppins", sans-serif;
-  font-size: 32px;
-  font-weight: 700;
-  height: 48px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.poppins-bold-cod-gray-40px {
-  color: rgba(14, 12, 11, 1);
-  font-family: "Poppins", sans-serif;
-  font-size: 40px;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.poppins-bold-cod-gray-74px {
-  color: #081121;
-  font-family: "Poppins", sans-serif;
-  font-size: 50px;
-  font-weight: 700;
-  font-style: normal;
 }
 
 .poppins-bold-cod-gray-32px {
@@ -132,217 +20,57 @@
   font-style: normal;
 }
 
-.poppins-bold-cod-gray-16px {
-  color: rgba(14, 12, 11, 1);
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  font-style: normal;
+.title-about {
+  position: relative;
+  left: 512px;
+  top: 36px;
+  align-items: center;
 }
 
-.poppins-bold-cod-gray-20px {
-  color: rgba(14, 12, 11, 1);
+.foto-profile {
+  position: absolute;
+  left: 280px;
+  margin-top: 60px;
+}
+
+.nama-about {
+  position: absolute;
+  left: 512px;
+  color: #081121;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: 60px;
+}
+
+.uiux-about {
+  position: absolute;
+  left: 512px;
+  margin-top: 100px;
+  color: #fd491c;
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-weight: 700;
   font-style: normal;
 }
 
-.poppins-bold-white-16px {
-  color: white;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.title-2 {
-  align-items: flex-start;
-  align-self: center;
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  margin-right: 77px;
-  margin-top: 61px;
-  min-height: 180px;
-  width: 394px;
-  top: 480px;
-}
-
-.overlap-group {
-  height: 94px;
-  margin-top: -1px;
-  position: relative;
-  width: 110px;
-}
-
-.number {
-  height: 48px;
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 0;
-}
-
-.title-study {
-  height: 48px;
-  left: 1px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 46px;
-}
-
-.flex-row-1 {
-  align-items: center;
-  display: flex;
-  gap: 103px;
-  min-width: 394px;
-}
-
-.flex-col-1 {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  margin-top: 2px;
-  min-height: 60px;
-  width: 0;
-}
-
-.mail {
-  height: 24px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.contact {
+.devinisi-about {
   color: rgba(14, 12, 11, 1);
-  font-size: 32px;
-  font-weight: 700;
-  height: 36px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.overlap-group1 {
-  height: 70px;
-  position: relative;
-  width: 102px;
-}
-
-.title-project {
-  height: 24px;
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 46px;
-}
-
-.kolom-statistic {
-  align-items: center;
-  position: absolute;
-  background-color: #262626;
-  display: flex;
-  gap: 77px;
-  height: 256px;
-  justify-content: flex-end;
-  margin-top: 58px;
-  min-width: 595px;
-  padding: 0 19px;
-  left: 0px;
-  top: 790px;
-}
-
-.button-them2 {
-  position: absolute;
-  padding: 8px 2rem;
-  border-radius: 8px;
-  border-color: transparent;
-  background-color: #fe481c;
-  color: white;
   font-family: "Poppins", sans-serif;
-  font-style: normal;
   font-size: 16px;
-  font-weight: 700;
-  line-height: 18px;
-  background-image: none;
-  left: 40px;
-  top: 150px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 168px;
+  width: 551px;
+  position: relative;
+  left: 405px;
+  top: 140px;
 }
 
-.judul-statistic {
+.stemple-oni {
   position: absolute;
-  color: white;
-  left: 40px;
-  top: 74px;
-}
-
-.judul-statistic2 {
-  color: white;
-  position: absolute;
-  left: 40px;
-  top: 102px;
-}
-
-.website {
-  position: absolute;
-  left: 306px;
-  top: 63px;
-}
-
-.website-data {
-  position: absolute;
-  right: 55px;
-  top: 63px;
-}
-
-.line1 {
-  position: absolute;
-  top: 95px;
-  left: 306px;
-}
-
-.mobile-app {
-  position: absolute;
-  left: 306px;
-  top: 109px;
-}
-
-.mobile-app-data {
-  position: absolute;
-  right: 55px;
-  top: 109px;
-}
-
-.line2 {
-  position: absolute;
-  top: 145px;
-  left: 306px;
-}
-
-.explore-2d {
-  position: absolute;
-  left: 306px;
-  top: 155px;
-}
-
-.explore-2d-data {
-  position: absolute;
-  right: 55px;
-  top: 157px;
-}
-
-.line3 {
-  position: absolute;
-  top: 192px;
-  left: 306px;
-}
-
-#oni-stemp {
-  position: absolute;
-  left: 266px;
-  top: 450px;
+  left: 20px;
+  top: 230px;
 }
